@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 64px;
+  margin-top: 50px;
 }
 
 .dataContainer {
@@ -10,18 +10,21 @@
   flex-direction: column;
   justify-content: center;
   max-width: 600px;
+  padding: 0 20px;
 }
 
 .header {
   text-align: center;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 600;
+  color: #9d34e8;
 }
 
 .bio {
   text-align: center;
   color: gray;
   margin-top: 16px;
+  font-size: 17px;
 }
 
 .waveButton {
@@ -29,6 +32,44 @@
   margin-top: 16px;
   padding: 8px;
   border: 0;
-  border-radius: 5px;
-  
+  width: 100%;
+  border-radius: 50px;
+  background: linear-gradient(to right, #9d34e8, #4949FF);
+  color: whitesmoke;
+  font-weight: bold; 
+  font-size: 20px;
+}
+
+.wave-head{
+  color: rgb(96, 96, 96);
+  margin-bottom: 0;
+  padding: 10px 20px;
+}
+
+form{
+  width: 100%;
+}
+input {
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 9px;
+  border: 1px solid gray;
+  width: 96%;
+}
+.wave-table{
+  background: linear-gradient(to right, #9d34e8, #4949FF);
+  padding: 10px 20px;
+  color: #f1f1f1;
+  font-weight: 600;
+  border-bottom: 1px solid #f1f1f1 ;
+}
+.mineState{
+  font-size: 17px;
+  font-weight: 900;
+}
+.footer{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
 }
