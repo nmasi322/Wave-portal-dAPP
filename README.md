@@ -13,4 +13,6 @@
 - Now you can send me a wave! Oh, and your wallet address will be printed below :)
 - You'll get a little prize if you wave at me :) But you can't wave more than once! After each wave, wait 30 seconds before you can wave again else, it won't work! :)
 
+Link is https://divine-wavedapp.netlify.app/
+
 Thank you! 😊
